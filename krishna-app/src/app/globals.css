@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --foreground: #171717;
+  --background: #f8f5f0; /* soft devotional color */
+}
+
+@theme inline {
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UI helpers */
+.category-card {
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  background-color: #fff7ed;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+/* 🌸 ISKCON Theme Colors */
+:root {
+  --primary: #8b5cf6;   /* Purple */
+  --secondary: #ec4899; /* Pink */
+  --accent: #f59e0b;    /* Golden */
+  --light-bg: #faf7ff;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #faf5ff,
+    #fff1f2
+  );
+}

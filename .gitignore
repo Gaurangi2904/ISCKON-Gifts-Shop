@@ -1,0 +1,7 @@
+backend/node_modules/
+krishna-app/node_modules/
+
+backend/.env
+krishna-app/.env
+
+krishna-app/.next/
